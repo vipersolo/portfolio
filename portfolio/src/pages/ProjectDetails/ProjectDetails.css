@@ -1,36 +1,44 @@
-.project-hero{
+.project-details{
 
-    padding:120px 0 80px;
-
-}
-
-.project-banner{
-
-    width:100%;
-
-    border-radius:20px;
-
-    margin-top:40px;
-
-    box-shadow:var(--shadow);
+    padding:80px 0;
 
 }
 
-.project-section{
+.project-header{
 
-    margin-top:80px;
+    margin-bottom:40px;
 
 }
 
-.project-section h2{
+.project-header h1{
 
-    margin-bottom:25px;
+    font-size:3rem;
 
     font-weight:700;
 
 }
 
-.project-tech{
+.project-overview{
+
+    margin:25px 0;
+
+    font-size:1.1rem;
+
+    color:var(--muted);
+
+}
+
+.cover-image{
+
+    width:100%;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.tech-stack{
 
     display:flex;
 
@@ -42,19 +50,19 @@
 
 }
 
-.project-pill{
+.project-links{
 
-    background:var(--primary);
+    display:flex;
 
-    color:white;
+    gap:15px;
 
-    padding:8px 16px;
+    flex-wrap:wrap;
 
-    border-radius:30px;
+    margin-bottom:30px;
 
 }
 
-.architecture{
+.details-card{
 
     background:white;
 
@@ -64,22 +72,46 @@
 
     box-shadow:var(--shadow);
 
-}
-
-.gallery{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-
-    gap:25px;
+    height:100%;
 
 }
 
-.gallery img{
+.details-card h2{
+
+    margin-bottom:20px;
+
+}
+
+.details-card ul{
+
+    padding-left:20px;
+
+}
+
+.details-card li{
+
+    margin-bottom:12px;
+
+}
+
+.gallery-section{
+
+    margin-top:70px;
+
+}
+
+.gallery-section h2{
+
+    margin-bottom:35px;
+
+}
+
+.gallery-image{
 
     width:100%;
 
     border-radius:15px;
+
+    box-shadow:var(--shadow);
 
 }
