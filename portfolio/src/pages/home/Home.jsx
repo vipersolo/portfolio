@@ -1,11 +1,11 @@
+import Hero from "../../components/Hero/Hero";
+
 const Home = () => {
-    return (
-        <>
-            <h1 className="text-center mt-5">
-                Home Page
-            </h1>
-        </>
-    );
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
-export default Home;    
+export default Home;
