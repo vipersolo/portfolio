@@ -1,0 +1,132 @@
+.timeline{
+
+    position:relative;
+
+    margin-top:60px;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:20px;
+
+    top:0;
+
+    bottom:0;
+
+    width:4px;
+
+    background:var(--primary);
+
+    border-radius:10px;
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    padding-left:70px;
+
+    margin-bottom:60px;
+
+}
+
+.timeline-dot{
+
+    position:absolute;
+
+    left:8px;
+
+    top:5px;
+
+    width:28px;
+
+    height:28px;
+
+    background:var(--primary);
+
+    border-radius:50%;
+
+    border:5px solid white;
+
+    box-shadow:var(--shadow);
+
+}
+
+.timeline-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+}
+
+.timeline-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.company{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.duration{
+
+    color:var(--muted);
+
+    margin-bottom:20px;
+
+}
+
+.tech-stack{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin:20px 0;
+
+}
+
+.tech{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:25px;
+
+    font-size:.9rem;
+
+}
+
+.timeline-card ul{
+
+    padding-left:20px;
+
+}
+
+.timeline-card li{
+
+    margin-bottom:10px;
+
+}
