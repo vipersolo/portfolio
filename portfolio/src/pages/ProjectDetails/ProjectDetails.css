@@ -1,0 +1,85 @@
+.project-hero{
+
+    padding:120px 0 80px;
+
+}
+
+.project-banner{
+
+    width:100%;
+
+    border-radius:20px;
+
+    margin-top:40px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.project-section{
+
+    margin-top:80px;
+
+}
+
+.project-section h2{
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+.project-tech{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin:25px 0;
+
+}
+
+.project-pill{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:30px;
+
+}
+
+.architecture{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+}
+
+.gallery img{
+
+    width:100%;
+
+    border-radius:15px;
+
+}

@@ -1,31 +1,72 @@
 const projects = [
   {
     id: 1,
+
     slug: "travel-diary",
+
+    featured: true,
 
     title: "Travel Diary",
 
-    image: "https://placehold.co/600x350",
+    shortDescription:
+      "A modern full-stack travel planning platform with intelligent recommendations.",
 
-    description:
-      "A full-stack travel planning platform where users can explore destinations, book accommodations, and receive intelligent recommendations.",
+    overview:
+      "Travel Diary is a full-stack travel application that allows users to explore destinations, book accommodations, estimate travel budgets, and receive personalized recommendations.",
+
+    coverImage: "https://placehold.co/800x450",
+
+    gallery: [
+      "https://placehold.co/800x450",
+      "https://placehold.co/800x450",
+      "https://placehold.co/800x450",
+    ],
 
     technologies: [
       "React",
       "Django",
-      "DRF",
-      "PostgreSQL"
+      "Django REST Framework",
+      "PostgreSQL",
+      "Redux Toolkit",
+      "Bootstrap",
+    ],
+
+    architecture: [
+      "React",
+      "Axios",
+      "Django REST Framework",
+      "PostgreSQL",
     ],
 
     features: [
       "JWT Authentication",
-      "ML Recommendations",
-      "Stripe Payments"
+      "Role Based Authorization",
+      "Destination Management",
+      "Accommodation Booking",
+      "Tour Packages",
+      "Machine Learning Recommendations",
+      "Responsive Design",
     ],
 
-    github: "#",
+    challenges: [
+      "Implemented a custom user model.",
+      "Integrated JWT authentication.",
+      "Built recommendation system.",
+      "Managed complex booking workflow.",
+    ],
 
-    live: "#"
+    lessonsLearned: [
+      "Advanced React component architecture.",
+      "Django REST Framework best practices.",
+      "Redux Toolkit state management.",
+      "Production deployment workflow.",
+    ],
+
+    githubFrontend: "#",
+
+    githubBackend: "#",
+
+    liveDemo: "#",
   },
 
   {
@@ -33,31 +74,130 @@ const projects = [
 
     slug: "asset-management",
 
-    title: "Asset Management",
+    featured: true,
 
-    image: "https://placehold.co/600x350",
+    title: "Asset Management System",
 
-    description:
-      "Enterprise asset management solution with inventory, assignments, repairs, and technician workflows.",
+    shortDescription:
+      "Enterprise asset management solution with repair and inventory modules.",
+
+    overview:
+      "A complete asset management platform developed using React and Django.",
+
+    coverImage: "https://placehold.co/800x450",
+
+    gallery: [
+      "https://placehold.co/800x450",
+      "https://placehold.co/800x450",
+    ],
 
     technologies: [
       "React",
       "Django",
       "DRF",
-      "PostgreSQL"
+      "PostgreSQL",
+    ],
+
+    architecture: [
+      "React",
+      "Axios",
+      "Django REST Framework",
+      "PostgreSQL",
     ],
 
     features: [
-      "Inventory",
-      "Repair Module",
-      "Charts"
+      "Inventory Management",
+      "Asset Assignment",
+      "Repair Tickets",
+      "Dashboard Charts",
     ],
 
-    github: "#",
+    challenges: [
+      "Role-based permission system.",
+      "Complex database relationships.",
+    ],
 
-    live: "#"
-  }
+    lessonsLearned: [
+      "Optimizing REST APIs.",
+      "Permission handling.",
+    ],
 
+    githubFrontend: "#",
+
+    githubBackend: "#",
+
+    liveDemo: "#",
+  },
+
+  {
+    id: 3,
+
+    slug: "farm-direct",
+
+    featured: true,
+
+    title: "Farm Direct",
+
+    shortDescription:
+      "An e-commerce platform connecting farmers directly with customers.",
+
+    overview: "",
+
+    coverImage: "https://placehold.co/800x450",
+
+    gallery: [],
+
+    technologies: [],
+
+    architecture: [],
+
+    features: [],
+
+    challenges: [],
+
+    lessonsLearned: [],
+
+    githubFrontend: "#",
+
+    githubBackend: "#",
+
+    liveDemo: "#",
+  },
+
+  {
+    id: 4,
+
+    slug: "community-watch",
+
+    featured: true,
+
+    title: "Community Watch",
+
+    shortDescription:
+      "Community reporting and awareness platform.",
+
+    overview: "",
+
+    coverImage: "https://placehold.co/800x450",
+
+    gallery: [],
+
+    technologies: [],
+
+    architecture: [],
+
+    features: [],
+
+    challenges: [],
+
+    lessonsLearned: [],
+
+    githubFrontend: "#",
+
+    githubBackend: "#",
+
+    liveDemo: "#",
+  },
 ];
 
 export default projects;

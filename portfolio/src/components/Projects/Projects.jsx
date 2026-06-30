@@ -6,48 +6,41 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
 
-  return (
+  const featuredProjects = projects.filter(
+    (project) => project.featured
+  );
 
+  return (
     <section id="projects">
 
       <Container>
 
         <h2 className="section-title">
-
           Featured Projects
-
         </h2>
 
         <Row>
 
-          {
+          {featuredProjects.map((project) => (
 
-            projects.map((project) => (
+            <Col
+              lg={6}
+              className="mb-4"
+              key={project.id}
+            >
 
-              <Col
-                lg={6}
-                className="mb-5"
-                key={project.id}
-              >
+              <ProjectCard project={project} />
 
-                <ProjectCard
-                  project={project}
-                />
+            </Col>
 
-              </Col>
-
-            ))
-
-          }
+          ))}
 
         </Row>
 
       </Container>
 
     </section>
-
   );
-
 };
 
 export default Projects;
