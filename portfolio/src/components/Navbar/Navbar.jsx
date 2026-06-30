@@ -1,4 +1,5 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
@@ -10,7 +11,10 @@ const NavigationBar = () => {
     >
       <Container>
 
-        <Navbar.Brand href="/">
+        <Navbar.Brand
+          as={NavLink}
+          to="/"
+        >
           Antony Jose
         </Navbar.Brand>
 
@@ -20,7 +24,11 @@ const NavigationBar = () => {
 
           <Nav className="ms-auto">
 
-            <Nav.Link href="/">
+            <Nav.Link
+              as={NavLink}
+              to="/"
+              end
+            >
               Home
             </Nav.Link>
 
